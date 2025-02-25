@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.clip-wave {
+  clip-path: polygon(0 85%, 10% 90%, 20% 93%, 30% 95%, 40% 97%, 50% 98%, 60% 97%, 70% 95%, 80% 92%, 90% 88%, 100% 85%, 100% 100%, 0% 100%);
+}
