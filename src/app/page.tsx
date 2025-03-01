@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className=" pt-0 mx-auto h-screen  text-stone-800 ">
-      <div className=" bg-gradient-to-b from-white to-orange-500 pt-6 lg:px-28 px-3 w-full ">
+      <div className=" bg-gradient-to-b from-white to-orange-500 pt-[24px] lg:px-28 px-3 w-full ">
         <div className="flex justify-between px-4 mb-12 text-2xl ">
           <p className="text-2xl lg:text-4xl"><span className=" text-yellow-600  font-bold">Golden</span><span className="font-semibold"> Card</span> </p>
           <button className="py-2 px-3 bg-stone-800 text-lg text-white rounded-lg shadow-md shadow-orange-500">Solicite o seu!</button>
